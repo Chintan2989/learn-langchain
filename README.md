@@ -5,7 +5,6 @@ A comprehensive collection of Jupyter notebooks for PDF processing, vector datab
 ## 🎯 Overview
 
 This project provides two main workflows:
-- **Comprehensive PDF Workflow** (`langchain_pdf_workflow.ipynb`) - Full pipeline for PDF processing, updating, and regeneration
 - **Simple PDF Q&A** (`read_pdf.ipynb`) - Streamlined document analysis and question-answering system
 
 ## 🚀 Features
@@ -43,19 +42,6 @@ GOOGLE_API_KEY=your-google-ai-api-key-here
 
 Get your API key from: [Google AI Studio](https://aistudio.google.com/app/apikey)
 
-### 3. Choose Your Workflow
-
-#### 🎯 Simple Q&A (Recommended for Beginners)
-Open `read_pdf.ipynb` for a streamlined experience:
-- Load any PDF document
-- Ask questions in natural language
-- Get AI-powered answers
-
-#### 🔧 Comprehensive Workflow
-Open `langchain_pdf_workflow.ipynb` for advanced features:
-- Full PDF processing pipeline
-- Content updating capabilities
-- PDF regeneration
 
 ## 📖 File Descriptions
 
@@ -85,7 +71,6 @@ results = pdf_db.search("BMW", k=2)
 answer = pdf_db.answer_question("What is the price of Honda Civic?")
 ```
 
-### 📓 `langchain_pdf_workflow.ipynb` - Comprehensive Workflow
 **Advanced PDF processing with update capabilities**
 
 #### Key Features:
@@ -100,7 +85,6 @@ answer = pdf_db.answer_question("What is the price of Honda Civic?")
 learn-langchain/
 ├── README.md                           # This file
 ├── read_pdf.ipynb                      # Simple PDF Q&A notebook
-├── langchain_pdf_workflow.ipynb        # Comprehensive workflow
 ├── .env                                # API keys (create this)
 ├── carData.pdf                         # Sample PDF data
 ├── pdf_vector_db/                      # Vector database storage
